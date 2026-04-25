@@ -4,50 +4,79 @@
   <title>My Portfolio</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial;
-      background: linear-gradient(to right, #6a11cb, #2575fc);
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #222;
       color: white;
+      padding: 20px;
       text-align: center;
     }
 
-    .container {
-      margin-top: 120px;
+    section {
+      padding: 20px;
+      margin: 20px;
+      background: white;
+      border-radius: 10px;
     }
 
-    h1 {
-      font-size: 40px;
-    }
-
-    p {
-      font-size: 18px;
+    h2 {
+      color: #333;
     }
 
     .btn {
-      background: white;
-      color: black;
-      padding: 10px 20px;
-      border: none;
-      margin-top: 15px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    .btn:hover {
-      background: black;
+      display: inline-block;
+      padding: 10px;
+      background: #007BFF;
       color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
     }
   </style>
 </head>
 
 <body>
 
-<div class="container">
-  <h1>Hi 👋 I'm Your Name</h1>
-  <p>Web Developer | Student | Freelancer</p>
+<header>
+  <h1>Your Name</h1>
+  <p>IT Developer | Musician</p>
+</header>
 
-  <button class="btn">View My Projects</button>
-</div>
+<section>
+  <h2>About Me</h2>
+  <p>I am passionate about IT development and music. I create websites and also enjoy singing/playing music.</p>
+</section>
+
+<section>
+  <h2>💻 IT Skills</h2>
+  <ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>Python / Java</li>
+    <li>Web Development Projects</li>
+  </ul>
+  <a class="btn" href="#">View GitHub</a>
+</section>
+
+<section>
+  <h2>🎵 Music</h2>
+  <ul>
+    <li>Cover Songs</li>
+    <li>Original Compositions</li>
+    <li>Live Performances</li>
+  </ul>
+  <a class="btn" href="#">YouTube Channel</a>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: yourmail@gmail.com</p>
+  <p>Phone: +91 XXXXX XXXXX</p>
+</section>
 
 </body>
 </html>
